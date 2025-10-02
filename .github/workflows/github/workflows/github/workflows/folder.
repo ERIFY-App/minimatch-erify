@@ -1,0 +1,3 @@
+git mv .github/workflows/github/workflows/* .github/workflows/ || true
+git rm -r .github/workflows/github || true
+git add -A && git commit -m "chore(ci): fix workflow path"
